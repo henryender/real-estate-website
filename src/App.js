@@ -29,7 +29,7 @@ function App() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'a77711dc7emsha08615e4f5591a4p105860jsnae14162dee8e',
+        'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
         'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
       }
     };

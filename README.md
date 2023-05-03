@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+API EXPIRES OR CALLS FINISHED, CHANGE EMAIL AT RAPID API BAYUT
+
+check App.js for Api calls on the homepage
+check utils/Select.js for Api calls on the filter page
+Options and url are imported from headers.js
